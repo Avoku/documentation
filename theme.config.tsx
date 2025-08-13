@@ -9,9 +9,6 @@ export default {
             titleTemplate: '%s | Avoku',
         }
     },
-    banner: {
-        text: '👍 Documentation updated.',
-    },
     footer: {
         text: 'Have a cookie! 🍪',
     },

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-type Metadata = {
+interface Metadata {
     downloads: number
     updates: {
         latest: {

@@ -1,3 +1,4 @@
+import { Download } from 'lucide-react'
 import useMetadata from '~/hooks/useMetadata'
 
 export default function Statistics() {
@@ -9,17 +10,27 @@ export default function Statistics() {
     }
 
     return (
-        <h4
+        <div
             style={{
                 padding: '8px 12px',
-                textAlign: 'center',
-                fontWeight: 600,
-                color: '#01aede',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 backgroundColor: '#01aede20',
                 borderRadius: '4px',
             }}
         >
-            Downloaded over {metadata.downloads} times!
-        </h4>
+            <span
+                style={{
+                    verticalAlign: 'bottom',
+                    gap: 2,
+                    fontWeight: 600,
+                    color: '#01aede',
+                }}
+            >
+                <Download size={16} />
+                Downloaded over {metadata.downloads} times!
+            </span>
+        </div>
     )
 }

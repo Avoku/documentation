@@ -6,23 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prettify": "pnpx prettier --write ."
+    "prettify": "prettier --write ."
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "axios": "^1.7.5",
-    "classnames": "^2.5.1",
     "framer-motion": "^10.18.0",
+    "js-yaml": "^4.1.0",
+    "lucide-react": "^0.539.0",
     "next": "^13.5.6",
     "nextra": "2.13.2",
     "nextra-theme-docs": "2.13.2",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sass": "^1.77.8"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
